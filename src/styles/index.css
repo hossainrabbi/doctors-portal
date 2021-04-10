@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
 
 :root {
     --main-color: #f5570d;
@@ -30,7 +30,7 @@ body {
     font-size: 1rem;
     color: var(--text-color);
     background-color: var(--bg-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 h1,
@@ -72,11 +72,23 @@ img {
 .title {
     text-align: center;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .title h6 {
     color: var(--main-color);
     text-transform: uppercase;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 5px;
+    background-color: var(--main-color);
 }
 
 /* Custom Background Color */

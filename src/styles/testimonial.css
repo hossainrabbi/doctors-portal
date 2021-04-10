@@ -1,0 +1,34 @@
+/* Testimonial Card */
+.testimonial-card {
+    text-align: center;
+}
+
+.testimonial-card .image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.testimonial-card .image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.testimonial-card .info .desc {
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+.testimonial-card .info .desc .icon {
+    color: var(--main-color);
+    margin: 0 10px;
+}
+
+.testimonial-card .info .info-title {
+    text-transform: uppercase;
+    color: var(--main-color);
+    font-size: 0.8rem;
+    font-weight: 500;
+}

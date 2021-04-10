@@ -4,7 +4,7 @@ export const services = [
         title: 'Fluoride Treatment',
         desc:
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ipsam provident repellendus.',
-        image: '../images/services/fluoride.png',
+        image: './images/services/fluoride.png',
     },
     {
         id: 2,
