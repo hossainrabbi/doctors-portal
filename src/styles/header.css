@@ -28,7 +28,7 @@
 
 /* Appointment Card */
 .appointment-card {
-    color: var(--text-light-color);
+    color: var(--white-color);
     padding: 10px;
     height: 130px;
     display: grid;
@@ -47,5 +47,5 @@
 }
 
 .appointment-card .info h5 {
-    color: var(--text-light-color);
+    color: var(--white-color);
 }

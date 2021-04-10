@@ -4,7 +4,7 @@
     padding: 20px 10px;
     border-radius: var(--radius);
     transition: var(--transition);
-    box-shadow: var(--shadow-light);
+    background-color: var(--white-color);
 }
 
 .service-card:hover {
