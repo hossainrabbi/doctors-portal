@@ -1,10 +1,11 @@
 import React from 'react';
+import Main from './pages/Main';
 
 function App() {
     return (
-        <main>
-            <h2>Hello World</h2>
-        </main>
+        <>
+            <Main />
+        </>
     );
 }
 

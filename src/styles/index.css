@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --main-color: #03ad8e;
+    --main-color-dark: #0a89a8;
+    --secondary-color: #3a4256;
+    --secondary-color-dark: #1c2029;
+    --text-light-color: #ffffff;
+    --text-dark-color: #595762;
+    --bg-color: #f5f5f5;
+    --shadow-light: 0 0 20px #00000017;
+    --shadow-dark: 0 0 20px #00000036;
+    --radius: 3px;
+    --transition: 0.3s;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    color: var(--text-dark-color);
+    background-color: var(--bg-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+/* Custom Button */
+.custom-btn {
+    color: var(--text-light-color) !important;
+    background-color: var(--main-color);
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: var(--radius);
+    transition: all var(--transition);
+}
+
+.custom-btn:hover {
+    background-color: var(--main-color-dark);
+}
+
+/* Main Title */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title h6 {
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+/* Custom Background Color */
+.main-bg-color {
+    background-color: var(--main-color);
+}
+
+.secondary-bg-color {
+    background-color: var(--secondary-color);
+}
+
+/* Others */
+.mt-100 {
+    margin-top: 100px;
+}

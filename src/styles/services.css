@@ -1,0 +1,16 @@
+/* Service Card */
+.service-card {
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: var(--radius);
+    transition: var(--transition);
+    box-shadow: var(--shadow-light);
+}
+
+.service-card:hover {
+    box-shadow: var(--shadow-dark);
+}
+
+.service-card img {
+    height: 70px;
+}

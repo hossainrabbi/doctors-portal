@@ -1,0 +1,51 @@
+.header {
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    z-index: -1;
+}
+
+/* Home */
+.home {
+    min-height: 500px;
+}
+
+.home h1 {
+    font-size: 3rem;
+}
+
+/* Appointment Card */
+.appointment-card {
+    color: var(--text-light-color);
+    padding: 10px;
+    height: 130px;
+    display: grid;
+    grid-template-columns: 30% auto;
+    margin-bottom: -50px;
+}
+
+.appointment-card .icon {
+    text-align: center;
+    font-size: 2.7rem;
+    align-self: center;
+}
+
+.appointment-card .info {
+    align-self: center;
+}
+
+.appointment-card .info h5 {
+    color: var(--text-light-color);
+}
