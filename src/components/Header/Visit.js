@@ -1,15 +1,15 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { appointment } from '../../data/appointment';
-import AppointmentCard from './AppointmentCard';
+import { visit } from '../../data/visit';
+import VisitCard from './VisitCard';
 
-const Appointment = () => {
+const Visit = () => {
     return (
         <Container>
             <Row>
-                {appointment.map((data) => (
+                {visit.map((data) => (
                     <Col md={4} key={data.id}>
-                        <AppointmentCard {...data} />
+                        <VisitCard {...data} />
                     </Col>
                 ))}
             </Row>
@@ -17,4 +17,4 @@ const Appointment = () => {
     );
 };
 
-export default Appointment;
+export default Visit;

@@ -1,9 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const AppointmentCard = ({ title, desc, icon, bgColor }) => {
+const VisitCard = ({ title, desc, icon, bgColor }) => {
     return (
-        <article className={`appointment-card ${bgColor}`}>
+        <article className={`visit-card ${bgColor}`}>
             <div className="icon">
                 <FontAwesomeIcon icon={icon} />
             </div>
@@ -17,4 +17,4 @@ const AppointmentCard = ({ title, desc, icon, bgColor }) => {
     );
 };
 
-export default AppointmentCard;
+export default VisitCard;

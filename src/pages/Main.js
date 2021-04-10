@@ -1,8 +1,9 @@
 import React from 'react';
-import Exceptional from '../components/Exceptional/Exceptional';
 import Header from '../components/Header/Header';
 import Services from '../components/Services/Services';
-import TodayAppointment from '../components/TodayAppointment/TodayAppointment';
+import Exceptional from '../components/Exceptional/Exceptional';
+import Appointment from '../components/Appointment/Appointment';
+import Testimonial from '../components/Testimonial/Testimonial';
 
 const Main = () => {
     return (
@@ -10,7 +11,8 @@ const Main = () => {
             <Header />
             <Services />
             <Exceptional />
-            <TodayAppointment />
+            <Appointment />
+            <Testimonial />
         </>
     );
 };

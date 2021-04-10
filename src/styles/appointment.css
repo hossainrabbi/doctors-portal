@@ -1,0 +1,37 @@
+.appointment {
+    color: var(--white-color);
+    background-image: url('../images/chair.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 400px;
+    position: relative;
+}
+
+.appointment::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--transparent-color);
+}
+
+.appointment img {
+    transform: translateY(-100px);
+    height: 500px;
+}
+
+.appointment .info {
+    margin-top: -80px;
+}
+
+.appointment h6 {
+    color: var(--main-color);
+}
+
+.appointment h2 {
+    color: var(--white-color);
+}

@@ -4,7 +4,7 @@ import {
     faPhoneAlt,
 } from '@fortawesome/free-solid-svg-icons';
 
-export const appointment = [
+export const visit = [
     {
         id: 1,
         title: 'Opening Hours',

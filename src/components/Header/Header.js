@@ -1,13 +1,13 @@
 import React from 'react';
 import Home from './Home';
-import Appointment from './Appointment';
+import Visit from './Visit';
 import '../../styles/header.css';
 
 const Header = () => {
     return (
         <header className="header">
             <Home />
-            <Appointment />
+            <Visit />
         </header>
     );
 };
