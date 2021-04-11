@@ -1,3 +1,11 @@
+/* Testimonial */
+.testimonial {
+    background-image: url('../images/quote.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 230px;
+}
+
 /* Testimonial Card */
 .testimonial-card {
     text-align: center;
@@ -19,6 +27,7 @@
 .testimonial-card .info .desc {
     font-style: italic;
     font-size: 1.3rem;
+    color: var(--text-color-normal);
 }
 
 .testimonial-card .info .desc .icon {

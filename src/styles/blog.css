@@ -1,0 +1,69 @@
+/* Blog Card  */
+.blog-card .author-info {
+    display: grid;
+    grid-template-columns: 20% auto;
+    column-gap: 20px;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.blog-card .author-info img,
+.blog-card .author-info .name {
+    align-self: center;
+}
+
+.blog-card .author-info .name h5 {
+    margin-bottom: 0;
+}
+
+.blog-card .author-info .name p {
+    color: var(--text-color-normal);
+}
+
+.blog-card .blog-img {
+    height: 200px;
+    border-radius: 0;
+}
+
+.blog-card .desc {
+    padding: 10px;
+    text-align: justify;
+}
+
+.blog-footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 5px 10px;
+    border-top: 0;
+}
+
+.blog-footer button {
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+    color: var(--text-color-normal);
+}
+
+.like-comment {
+    justify-self: start;
+}
+
+.like {
+    margin-right: 10px;
+}
+
+.liked {
+    color: var(--main-color-dark) !important;
+}
+
+.more {
+    justify-self: end;
+}

@@ -7,6 +7,7 @@
     --secondary-color-dark: #1b1b1b;
     --white-color: #ffffff;
     --text-color: #494949;
+    --text-color-normal: #969696;
     --bg-color: #f3eaea;
     --transparent-color: #000000b0;
     --shadow-light: 0 0 20px #00000017;
@@ -27,7 +28,7 @@
 }
 
 body {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--text-color);
     background-color: var(--bg-color);
     font-family: 'Josefin Sans', sans-serif;
@@ -43,7 +44,8 @@ h6 {
     margin-bottom: 10px;
 }
 
-p {
+p,
+small {
     margin-bottom: 0;
 }
 

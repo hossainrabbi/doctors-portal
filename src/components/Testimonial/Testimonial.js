@@ -7,7 +7,7 @@ import '../../styles/testimonial.css';
 
 const Testimonial = () => {
     return (
-        <section className="container mt-100">
+        <section className="testimonial container mt-100">
             <div className="title">
                 <h6>Testimonial</h6>
                 <h2>Services We Provide</h2>
