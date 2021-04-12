@@ -8,7 +8,7 @@
     --white-color: #ffffff;
     --text-color: #494949;
     --text-color-normal: #969696;
-    --bg-color: #f3eaea;
+    --bg-color: #f7f7f7;
     --transparent-color: #000000b0;
     --shadow-light: 0 0 20px #00000017;
     --shadow-dark: 0 0 20px #00000036;
@@ -42,6 +42,7 @@ h5,
 h6 {
     color: var(--secondary-color);
     margin-bottom: 10px;
+    text-transform: capitalize;
 }
 
 p,
@@ -100,9 +101,4 @@ img {
 
 .secondary-bg-color {
     background-color: var(--secondary-color);
-}
-
-/* Others */
-.mt-100 {
-    margin-top: 100px;
 }

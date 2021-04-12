@@ -32,38 +32,40 @@
     text-align: justify;
 }
 
-.blog-footer {
+.blog-card .blog-footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding: 5px 10px;
     border-top: 0;
 }
 
-.blog-footer button {
+.blog-card .blog-footer button {
     padding: 0;
     width: 30px;
     height: 30px;
-    line-height: 32px;
+    line-height: 34px;
     text-align: center;
     display: inline-block;
     font-size: 1.2rem;
     border: none;
+    border-radius: 50%;
+    background-color: red;
     background-color: transparent;
     color: var(--text-color-normal);
 }
 
-.like-comment {
+.blog-card .blog-footer .like-comment {
     justify-self: start;
 }
 
-.like {
+.blog-card .blog-footer .like {
     margin-right: 10px;
 }
 
-.liked {
+.blog-card .blog-footer .liked {
     color: var(--main-color-dark) !important;
 }
 
-.more {
+.blog-card .blog-footer .more {
     justify-self: end;
 }

@@ -5,7 +5,7 @@ import '../../styles/appointment.css';
 
 const Appointment = () => {
     return (
-        <section className="appointment mt-100">
+        <section className="appointment my-5">
             <Container>
                 <Row className="align-items-center">
                     <Col md={5}>

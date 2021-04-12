@@ -17,12 +17,11 @@
     z-index: -1;
 }
 
-/* Home */
-.home {
+.header .home {
     min-height: 500px;
 }
 
-.home h1 {
+.header .home h1 {
     font-size: 3rem;
 }
 

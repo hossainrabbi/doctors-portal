@@ -1,12 +1,12 @@
 import React from 'react';
-import Main from './pages/Main';
+import Home from './pages/Home';
 import NavManu from './components/NavManu/NavManu';
 
 function App() {
     return (
         <>
             <NavManu />
-            <Main />
+            <Home />
         </>
     );
 }

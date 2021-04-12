@@ -4,7 +4,7 @@ import exceptional from '../../images/exceptional.jpg';
 
 const Exceptional = () => {
     return (
-        <section className="container mt-100">
+        <section className="container py-5">
             <Row className="align-items-center">
                 <Col md={5}>
                     <img src={exceptional} alt="exceptional" />
