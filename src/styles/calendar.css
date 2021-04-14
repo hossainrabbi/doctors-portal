@@ -1,0 +1,12 @@
+.calendar {
+    border: none;
+    font-family: inherit;
+}
+
+.react-calendar__tile--active {
+    background-color: var(--main-color);
+}
+
+.react-calendar__tile--active:hover {
+    background-color: var(--main-color-dark) !important;
+}

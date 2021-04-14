@@ -17,11 +17,11 @@
     z-index: -1;
 }
 
-.header .home {
+.home {
     min-height: 500px;
 }
 
-.header .home h1 {
+.home h1 {
     font-size: 3rem;
 }
 

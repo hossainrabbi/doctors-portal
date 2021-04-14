@@ -1,0 +1,36 @@
+.available-appointment .appointment-title {
+    color: var(--main-color);
+    text-align: center;
+    text-transform: unset;
+}
+
+/* Booking */
+.booking {
+    box-shadow: var(--shadow-light);
+    padding: 20px 10px;
+    border-radius: var(--radius);
+    transition: all var(--transition);
+}
+
+.booking:hover {
+    box-shadow: var(--shadow-dark);
+}
+
+.booking h4 {
+    color: var(--main-color);
+}
+
+.booking p {
+    text-transform: uppercase;
+}
+
+/* Booking Form */
+.booking-form {
+    width: 600px;
+}
+
+.booking-form h5 {
+    color: var(--main-color);
+    text-align: center;
+    margin-bottom: 30px;
+}

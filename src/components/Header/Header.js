@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import chair from '../../images/chair.jpg';
 import Visit from './Visit';
 import '../../styles/header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -15,9 +16,9 @@ const Header = () => {
                             Lorem ipsum dolor sit, amet consectetur adipisicing
                             elit. Non vel nobis cupiditate quisquam modi.
                         </p>
-                        <button className="btn custom-btn">
+                        <Link to="/appointment" className="btn custom-btn">
                             Get Appointment
-                        </button>
+                        </Link>
                     </Col>
                     <Col md={7}>
                         <img src={chair} alt="doctor-chair" />
